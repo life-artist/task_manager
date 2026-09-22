@@ -7,3 +7,5 @@
 ![删除说明文案](docs/chat/03-remove-subtitle.png)
 
 ![优先级排序](docs/chat/04-priority-sort.png)
+
+![任务看板](docs/chat/05-board.png)
