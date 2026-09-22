@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Figtree", "Noto Sans SC", "Microsoft YaHei", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces", "Noto Sans SC", "Microsoft YaHei", Georgia, serif;
+}
+
+html,
+body,
+#app {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: #efe6d6;
+  color: #2a2118;
+}
+
+.dark body {
+  background: #14110e;
+  color: #f3e8d7;
+}
+
+#app {
+  min-height: 100vh;
+}
